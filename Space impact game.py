@@ -119,7 +119,7 @@ def game_loop():
                 elif event.key == pygame.K_UP:
                     y_change = -5
 
-            y+=y_change
+        y+=y_change
 
         gameDisplay.fill(game_background)        
         car(x,y)
