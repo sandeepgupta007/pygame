@@ -8,4 +8,4 @@ How to play the game ?
 3). Either you can double click on the python file (Space_impact_nextgen.py ) or open the file in IDLE and press Key F5 to run the game.
 
 Hope you like the game ! 
-It's my first game and tell me how you like it.
+It's my first game and tell me how you like it.(play the latest version game)
