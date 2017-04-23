@@ -4,7 +4,7 @@
 # Actually the game is designed developed with the help from youtube channel,
 # and it's my first game
 ''' don't change the display_width and display_height because most of the
-enemy dimension are w.t.t 800*600 only ! '''
+enemy dimension are w.r.t 800*600 only ! '''
 
 import pygame
 import time
