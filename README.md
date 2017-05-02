@@ -9,3 +9,5 @@ How to play the game ?
 
 Hope you like the game ! 
 It's my first game and tell me how you like it.(play the latest version game)
+
+To play the game -> goto to this link https://drive.google.com/open?id=0BzPQEuSHQ9SKYklyUjdJSW1ianc download the folder, and start playing the game.
