@@ -4,7 +4,7 @@
 # Actually the game is designed developed with the help from youtube channel,
 # and it's my first game
 ''' don't change the display_width and display_height because most of the
-enemy dimension are w.r.t 800*600 only ! '''
+enemy dimension are w.t.t 800*600 only ! '''
 
 import pygame
 import time
@@ -116,7 +116,7 @@ def game_intro():
         textsurf,textrect = text_objects('Quit',smallText)
         textrect.center = ((290+125),(450+45))
         gameDisplay.blit(textsurf,textrect)
-        smallText = pygame.font.Font('freesansbold.ttf',20)
+        smallText = pygame.font.SysFont("comicsansms",20)
         textsurf,textrect = text_objects('Developed by : Bond_007',smallText)
         textrect.center = (400,580)
         gameDisplay.blit(textsurf,textrect)
@@ -146,9 +146,15 @@ def game_loop(last_count,life):
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_DOWN:
                     y_change = 5
+                    y+=y_change
                 elif event.key == pygame.K_UP:
                     y_change = -5
-
+            if event.type == pygame.KEYUP:
+                if event.key == pygame.K_DOWN:
+                    y_change = 0
+                    y+=y_change
+                elif event.key == pygame.K_UP:
+                    y_change = 0
         y+=y_change
         gameDisplay.fill(game_background)        
         car(x,y)
